@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+
+.logo-container {
+  width: 224.94px;
+  height: 129.39px;
+  padding: 7.86px 0.17px 9.03px 6.78px;
+  opacity: 0px;
+}
+.tick-sym {
+  margin-left: 50rem;
+  margin-top: 1rem;
+  width: 80px;
+  height: 80px;
+}
+.submitted-container {
+  font-family: "Covered By Your Grace";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 39.6px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-left: 46rem;
+  width: 237px;
+  height: 28px;
+  color: #2da950;
+}
+.text {
+  font-family: "Manrope", sans-serif;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 41rem;
+  width: 423px;
+  height: 67px;
+  color: #1c1c1c;
+}
+.text2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 35.1px;
+  margin-left: 33rem;
+  text-align: center;
+  width: 718px;
+  height: 105px;
+  color: #727272;
+}
+.redirecting-container {
+  font-size: 16px;
+  margin-left: 46rem;
+  margin-top: 8rem;
+  font-weight: 400;
+  display: flex;
+  width: 21rem;
+}
+.countdown {
+  font-weight: 600;
+  margin-left: 0.3rem;
+}

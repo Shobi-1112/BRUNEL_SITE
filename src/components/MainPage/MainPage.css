@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Switzer:wght@500&display=swap");
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(252, 249, 249);
+  background: linear-gradient(90deg, #fff 94%, rgba(56, 52, 52, 1) 103%);
+  margin-top: 1rem;
+  height: 6rem;
+  border: 1px solid #d7d2d2;
+  border-radius: 7.5rem;
+}
+
+.navbar-brand {
+  width: 175.94px;
+  height: 88.39px;
+  padding: 7.86px 0.17px 9.03px 6.78px;
+  opacity: 0px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  padding: 7.86px 0.17px 9.03px 6.78px;
+  background: none;
+  gap: 1rem;
+  top: 24px;
+  left: 24px;
+  margin-right: 1rem;
+}
+
+.navbar-item {
+  margin-left: 1rem;
+}
+
+.navbar-item-1 button {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #d7d2d2;
+  padding: 0.9rem 2rem;
+  font-family: "Manrope", sans-serif;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar-item-2 button {
+  color: #fff;
+  background-color: #1c1c1c;
+  border: 1px solid #a4a0a0;
+  font-family: "Manrope", sans-serif;
+  padding: 0.9rem 2rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar-item-2 button:hover {
+  background-color: #4e4e4e;
+}
+
+.navbar-item-1 button:hover {
+  background-color: #eaeaea;
+}
+
+.content {
+  padding: 2rem;
+  margin: 1rem;
+  background-color: none;
+  border-radius: 4px;
+}
+
+.content h1 {
+  font-family: "Covered By Your Grace", " cursive";
+  font-size: 36px;
+  color: #2da950;
+  text-align: center;
+  font-weight: 400;
+  line-height: 39.6px;
+  letter-spacing: -0.02em;
+}
+
+.content p {
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 54px;
+  font-weight: 800;
+  margin-left: 31rem;
+  margin-top: -1rem;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  width: 588px;
+  height: 134px;
+}
+.image {
+  background: url("https://s3-alpha-sig.figma.com/img/c086/323e/b8fae54c91face434e9ea448a875ea3e?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CPPJu~LH5jYqxc8GcYbYi8GpYZgu3j-AFGk6P5AmeOJnOVh~MFFvaY-W2zLzP1Z-nbTnsFqaK9IwMhqY17hc~mTOe-T65fjKPsSLz2IuGlJPXLjCD0Nft~wq1uZntYN3HhCA5uVhv~0Et663QLCcv3lOLUCpuJFYrd1zDpR94UWGVhMmI-PnyW1EWDkGgfPIdMIBlyMQ5X9F7n2nNNI55Hp56B3F~tOPgUcBN9jDOTv2kKq1BuNYd-QxrPNSlQ~iJKerpafsOWRN14nu-xFnt8KbvT-IrBC3BatAs~MMcHy5IJBnBrAol9VY6q2kPz1p1ifSVXMX3tnrb9N4L74Zpg__");
+  background-size: cover;
+  width: 553.65px;
+  height: 40rem;
+  margin-top: 1rem;
+  margin-left: 197.81px;
+  border-radius: 5rem;
+}
+.overlap-content1 {
+  background-color: #fff;
+  width: 207.82px;
+  height: 184px;
+  top: 556px;
+  left: 62px;
+  border-radius: 27.11px;
+  padding: 30px;
+  gap: 10px;
+  position: absolute;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.overlap-content1 p {
+  width: 207.82px;
+  height: 92px;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  text-align: left;
+  color: #828282;
+}
+.sparkle {
+  width: 79.17px;
+  height: 78.48px;
+  text-align: left;
+  margin-top: -2rem;
+  margin-left: -2rem;
+  margin-bottom: 1rem;
+  rotate: 21.27%;
+}
+.overlap-content2 {
+  background-color: #fff;
+  width: 210px;
+  height: 28px;
+  top: 900px;
+  left: 101px;
+  border-radius: 27.11px;
+  padding: 30px;
+  gap: 10px;
+  position: absolute;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.rocket-img {
+  width: 58px;
+  height: 58px;
+  margin-top: -1rem;
+}
+.overlap-content2 p {
+  width: 92px;
+  height: 33px;
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.78px;
+  text-align: center;
+  margin-left: 5rem;
+  margin-top: -4rem;
+  color: #000;
+}
+
+.overlap-content3 {
+  background-color: #002e18;
+  width: 210px;
+  height: 151px;
+  top: 935px;
+  left: 505px;
+  border-radius: 27.11px;
+  padding: 30px;
+  gap: 10px;
+  position: absolute;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.overlap-content3 p {
+  width: 224.82px;
+  height: 69px;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  margin-top: 2rem;
+  text-align: left;
+  color: #cccc;
+}
+.image2 {
+  width: 20rem;
+  height: 20rem;
+}
+.carousel-content {
+  width: -1rem;
+  height: 192px;
+  top: 440px;
+  left: 897px;
+  font-family: "Manrope", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #1c1c1c;
+}
+.explore-container {
+  background-color: #000;
+  width: 192px;
+  height: 8px;
+  top: 900px;
+  left: 63rem;
+  border-radius: 68.11px;
+  padding: 30px;
+  position: absolute;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.explore-container p {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.32px;
+  margin-top: -0.5rem;
+  text-align: center;
+}
+.arrow-img {
+  width: 24px;
+  height: 24px;
+  padding: 4.22px 4px 4.22px 4px;
+  rotate: 360deg;
+  background: #000;
+  margin-top: -3rem;
+  margin-left: 10rem;
+  position: absolute;
+}
+.AskQuestion-container {
+  background-color: #e8eee7;
+  width: 94rem;
+  height: 641px;
+  top: 74rem;
+  left: 62px;
+  border-radius: 27.11px;
+  padding: 30px;
+  gap: 10px;
+  position: absolute;
+  gap: 10px;
+  position: absolute;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.AskQuestion-container p {
+  font-family: "Covered By Your Grace", " cursive";
+  font-size: 36px;
+  margin-left: 3rem;
+  position: absolute;
+  color: #9e9d9d;
+  text-align: center;
+  font-weight: 400;
+  line-height: 39.6px;
+  letter-spacing: -0.02em;
+}
+.vector-img {
+  width: 36rem;
+  height: 32rem;
+  top: 16rem;
+  left: -19px;
+  gap: 0px;
+  border-radius: 40px 0px 0px 0px;
+  opacity: 0px;
+  position: absolute;
+}
+.code-sections {
+  margin-left: 56rem;
+  position: absolute;
+  margin-top: 32rem;
+  line-height: 1rem;
+}
+h3 {
+  margin-left: 37rem;
+  margin-top: -5.5rem;
+  font-size: 24px;
+}
+.samplequestion {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  margin-bottom: 3.5rem;
+  font-weight: 600;
+  height: fit-content;
+  line-height: 28px;
+  width: 26rem;
+  text-align: left;
+}
+.code-sample {
+  font-family: "Manrope";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 1rem;
+  width: 581px;
+  height: 47px;
+  margin-bottom: 3rem;
+  color: #617275;
+}
+.code-section{
+  line-height: 2rem;
+}
+.line {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.BottomBar {
+  background-color: #f5f5f5;
+  width: 1502px;
+  height: 36px;
+  top: 44rem;
+  left: -52rem;
+  margin-bottom: 1rem;
+  border-radius: 27.11px;
+  padding: 30px;
+  gap: 10px;
+  position: absolute;
+  display: flex;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.csymbol-img {
+  width: 24px;
+  height: 24px;
+  margin-top: 0.8rem;
+}
+.Terms-Condition {
+  margin-left: 59rem;
+  margin-right: 1rem;
+}
+.squareeff-img {
+  position: absolute;
+  width: 43rem;
+  margin-top: -7rem;
+  height: 35rem;
+}
