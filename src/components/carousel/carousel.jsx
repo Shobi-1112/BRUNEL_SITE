@@ -21,12 +21,10 @@ const Carousel = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      // Calculate the index of the next slide
       const nextSlideIndex = (currentSlide + 1) % slides.length;
       setCurrentSlide(nextSlideIndex);
-    }, 5000); // Switch every 5 seconds
+    }, 5000); 
 
-    // Cleanup the interval on component unmount
     return () => clearInterval(interval);
   }, [currentSlide, slides.length]);
 

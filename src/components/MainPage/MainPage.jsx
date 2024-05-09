@@ -7,7 +7,7 @@ import vector from "../../assets/Union.png";
 import Carousel from "../carousel/carousel";
 import Csymbol from "../../assets/Frame - Copy.png"
 import rectangleAni from "../../assets/background.png"
-const Navbar = () => {
+const MainPage = () => {
   const [CodeDropDown, setCodeDropDown] = useState({
     StaticQ1: false,
     StaticQ2: false,
@@ -256,4 +256,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default MainPage;
