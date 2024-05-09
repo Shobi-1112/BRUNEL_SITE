@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./carousel.css";
 
 const Carousel = () => {
@@ -19,11 +19,21 @@ const Carousel = () => {
     },
   ];
 
- 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      // Calculate the index of the next slide
+      const nextSlideIndex = (currentSlide + 1) % slides.length;
+      setCurrentSlide(nextSlideIndex);
+    }, 5000); // Switch every 5 seconds
+
+    // Cleanup the interval on component unmount
+    return () => clearInterval(interval);
+  }, [currentSlide, slides.length]);
+
   return (
     <>
       <div className="carousel">
-        <div className="carousel-content" style={{width: "32rem"}}>
+        <div className="carousel-content" style={{ width: "32rem", marginLeft:"6rem"}}>
           <p>{slides[currentSlide].content}</p>
         </div>
         <div className="dots">

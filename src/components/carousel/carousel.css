@@ -4,8 +4,8 @@
 
 .dots {
   position: absolute;
-  top: 15rem;
-  left: 4%;
+  top: 16rem;
+  left: 15%;
   transform: translateX(-50%);
 }
 

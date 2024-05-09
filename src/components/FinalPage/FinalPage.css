@@ -8,8 +8,8 @@
   opacity: 0px;
 }
 .tick-sym {
-  margin-left: 50rem;
-  margin-top: 1rem;
+  margin-left: 54rem;
+  margin-top: 4rem;
   width: 80px;
   height: 80px;
 }
@@ -20,7 +20,7 @@
   line-height: 39.6px;
   letter-spacing: -0.02em;
   text-align: center;
-  margin-left: 46rem;
+  margin-left: 50rem;
   width: 237px;
   height: 28px;
   color: #2da950;
@@ -33,7 +33,7 @@
   letter-spacing: -0.02em;
   text-align: center;
   margin-top: 1rem;
-  margin-left: 41rem;
+  margin-left: 45rem;
   width: 423px;
   height: 67px;
   color: #1c1c1c;
@@ -43,15 +43,15 @@
   font-size: 27px;
   font-weight: 500;
   line-height: 35.1px;
-  margin-left: 33rem;
+  margin-left: 37rem;
   text-align: center;
   width: 718px;
   height: 105px;
   color: #727272;
 }
 .redirecting-container {
-  font-size: 16px;
-  margin-left: 46rem;
+  font-size: 17px;
+  margin-left: 49rem;
   margin-top: 8rem;
   font-weight: 400;
   display: flex;

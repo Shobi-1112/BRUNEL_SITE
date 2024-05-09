@@ -75,7 +75,7 @@
 
 .content h1 {
   font-family: "Covered By Your Grace", " cursive";
-  font-size: 36px;
+  font-size: 52px;
   color: #2da950;
   text-align: center;
   font-weight: 400;
@@ -88,7 +88,7 @@
   font-family: "Manrope", sans-serif;
   font-size: 54px;
   font-weight: 800;
-  margin-left: 31rem;
+  margin-left: 39rem;
   margin-top: -1rem;
   line-height: 67.2px;
   letter-spacing: -0.02em;
@@ -211,8 +211,8 @@
   background-color: #000;
   width: 192px;
   height: 8px;
-  top: 900px;
-  left: 63rem;
+  top: 959px;
+  left: 69rem;
   border-radius: 68.11px;
   padding: 30px;
   position: absolute;
@@ -239,7 +239,7 @@
 }
 .AskQuestion-container {
   background-color: #e8eee7;
-  width: 94rem;
+  width: 108rem;
   height: 641px;
   top: 74rem;
   left: 62px;
@@ -273,7 +273,7 @@
   position: absolute;
 }
 .code-sections {
-  margin-left: 56rem;
+  margin-left:67rem;
   position: absolute;
   margin-top: 32rem;
   line-height: 1rem;
@@ -314,10 +314,10 @@ h3 {
 }
 .BottomBar {
   background-color: #f5f5f5;
-  width: 1502px;
+  width: 1725px;
   height: 36px;
   top: 44rem;
-  left: -52rem;
+  left: -63rem;
   margin-bottom: 1rem;
   border-radius: 27.11px;
   padding: 30px;
@@ -332,12 +332,12 @@ h3 {
   margin-top: 0.8rem;
 }
 .Terms-Condition {
-  margin-left: 59rem;
+  margin-left: 74rem;
   margin-right: 1rem;
 }
 .squareeff-img {
   position: absolute;
-  width: 43rem;
+  width: 56rem;
   margin-top: -7rem;
   height: 35rem;
 }
